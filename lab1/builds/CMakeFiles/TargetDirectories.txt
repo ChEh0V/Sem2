@@ -1,0 +1,9 @@
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/CMakeFiles/lab1.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/CMakeFiles/edit_cache.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/CMakeFiles/rebuild_cache.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/mymath/CMakeFiles/mymath.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/mymath/CMakeFiles/edit_cache.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/mymath/CMakeFiles/rebuild_cache.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/newFac/CMakeFiles/newFac.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/newFac/CMakeFiles/edit_cache.dir
+/home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/newFac/CMakeFiles/rebuild_cache.dir

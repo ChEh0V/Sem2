@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnewFac.a CMakeFiles/newFac.dir/newFac.cpp.o
+/usr/bin/ranlib libnewFac.a
