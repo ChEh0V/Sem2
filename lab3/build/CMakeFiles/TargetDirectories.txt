@@ -1,0 +1,6 @@
+/home/ur0ch/Sem2/lab3/build/CMakeFiles/lab_3.dir
+/home/ur0ch/Sem2/lab3/build/CMakeFiles/edit_cache.dir
+/home/ur0ch/Sem2/lab3/build/CMakeFiles/rebuild_cache.dir
+/home/ur0ch/Sem2/lab3/build/Fraction/CMakeFiles/Fraction.dir
+/home/ur0ch/Sem2/lab3/build/Fraction/CMakeFiles/edit_cache.dir
+/home/ur0ch/Sem2/lab3/build/Fraction/CMakeFiles/rebuild_cache.dir
