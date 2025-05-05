@@ -1,0 +1,3 @@
+/home/ur0ch/Sem2/lab4/build/CMakeFiles/MyStack.dir
+/home/ur0ch/Sem2/lab4/build/CMakeFiles/edit_cache.dir
+/home/ur0ch/Sem2/lab4/build/CMakeFiles/rebuild_cache.dir

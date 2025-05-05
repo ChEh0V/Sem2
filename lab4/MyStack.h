@@ -1,0 +1,92 @@
+#pragma once
+#include <iostream>
+
+// узел списка
+template<typename DATA>
+class ListNode {
+public:
+    DATA data;
+    ListNode<DATA>* next;
+    ListNode() { next = nullptr; }
+};
+
+template<typename DATA>
+class MyStack {
+    ListNode<DATA>* top;
+public:
+    MyStack() { top = nullptr; }
+
+    ~MyStack(void) {
+      while (pop()) {}
+    }
+
+    // стек пустой?
+    bool empty(void) {
+      return top == nullptr;
+    }
+    // + узел в вершину стека
+    bool push(DATA obj) {
+      ListNode<DATA>* tmp = new ListNode<DATA>();
+      tmp->next = top;
+      tmp->data = obj;
+      top = tmp;
+      return 1;
+    }
+    // - узел из вершины стека
+    bool pop() {
+      if (empty()) {
+        return false;
+      }
+      ListNode<DATA>* tmp = top->next;
+      delete top;
+      top = tmp;
+      return true;
+    }
+    // инфо из вершины стека
+    DATA inf() {
+      if (empty()) {
+        std::cout << "Попытка обратиться к несуществующему элементу!\n";
+        exit(0);
+      }
+      return top->data;
+    }
+    // присваивания
+    MyStack& operator=(const MyStack &obj) {
+      if (this == &obj) {
+        return *this;
+      }
+      while (pop()) {}
+
+      MyStack<DATA> tmpStack;
+      ListNode<DATA>* tmp = obj.top;
+      while (tmp != nullptr) {
+        tmpStack.push(tmp->data);
+        tmp = tmp->next;
+      }
+
+      tmp = tmpStack.top;
+      while (tmp != nullptr) {
+        push(tmp->data);
+        tmp = tmp->next;
+      }
+      return *this;
+    }
+
+    // копировалка
+    MyStack(const MyStack &other) {
+      top = nullptr;
+      MyStack<DATA> tmpStack;
+      ListNode<DATA>* tmp = other.top;
+      while (tmp != nullptr) {
+        tmpStack.push(tmp->data);
+        tmp = tmp->next;
+      }
+
+      tmp = tmpStack.top;
+      while (tmp != nullptr) {
+        push(tmp->data);
+        tmp = tmp->next;
+      }
+    }
+
+};
