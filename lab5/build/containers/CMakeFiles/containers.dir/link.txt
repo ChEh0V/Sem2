@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcontainers.a CMakeFiles/containers.dir/myset.cpp.o CMakeFiles/containers.dir/myvector.cpp.o
+/usr/bin/ranlib libcontainers.a

@@ -1,0 +1,6 @@
+/home/ur0ch/Sem2/lab5/build/CMakeFiles/lab5.dir
+/home/ur0ch/Sem2/lab5/build/CMakeFiles/edit_cache.dir
+/home/ur0ch/Sem2/lab5/build/CMakeFiles/rebuild_cache.dir
+/home/ur0ch/Sem2/lab5/build/containers/CMakeFiles/containers.dir
+/home/ur0ch/Sem2/lab5/build/containers/CMakeFiles/edit_cache.dir
+/home/ur0ch/Sem2/lab5/build/containers/CMakeFiles/rebuild_cache.dir
