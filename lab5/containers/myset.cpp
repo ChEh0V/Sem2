@@ -2,7 +2,7 @@
 
 void MySet::add_element(const char* el) {
     if (!is_element(el)) {
-        MyVector::add_element(el);
+        add_element(el);
         sort();
     }
 }
