@@ -1,4 +1,4 @@
-# Install script for directory: /home/ur0ch/Chehovich-CS-Labs-2024/lab1/newFac
+# Install script for directory: /home/ur0ch/Sem2/lab1/newFac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

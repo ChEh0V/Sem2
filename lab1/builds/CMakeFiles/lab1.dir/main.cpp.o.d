@@ -1,5 +1,4 @@
-CMakeFiles/lab1.dir/main.cpp.o: \
- /home/ur0ch/Chehovich-CS-Labs-2024/lab1/main.cpp \
+CMakeFiles/lab1.dir/main.cpp.o: /home/ur0ch/Sem2/lab1/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -155,5 +154,5 @@ CMakeFiles/lab1.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/ur0ch/Chehovich-CS-Labs-2024/lab1/mymath/mymath.h \
- /home/ur0ch/Chehovich-CS-Labs-2024/lab1/newFac/newFac.h
+ /home/ur0ch/Sem2/lab1/mymath/mymath.h \
+ /home/ur0ch/Sem2/lab1/newFac/newFac.h

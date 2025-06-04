@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ur0ch/Chehovich-CS-Labs-2024/lab1
+CMAKE_SOURCE_DIR = /home/ur0ch/Sem2/lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds
+CMAKE_BINARY_DIR = /home/ur0ch/Sem2/lab1/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/CMakeFiles /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/newFac//CMakeFiles/progress.marks
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds/CMakeFiles 0
+	cd /home/ur0ch/Sem2/lab1/builds && $(CMAKE_COMMAND) -E cmake_progress_start /home/ur0ch/Sem2/lab1/builds/CMakeFiles /home/ur0ch/Sem2/lab1/builds/newFac//CMakeFiles/progress.marks
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ur0ch/Sem2/lab1/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/clean
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/preinstall
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/preinstall
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ur0ch/Sem2/lab1/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 newFac/CMakeFiles/newFac.dir/rule:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/CMakeFiles/newFac.dir/rule
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newFac/CMakeFiles/newFac.dir/rule
 .PHONY : newFac/CMakeFiles/newFac.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ newFac: newFac/CMakeFiles/newFac.dir/rule
 
 # fast build rule for target.
 newFac/fast:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/build
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/build
 .PHONY : newFac/fast
 
 newFac.o: newFac.cpp.o
@@ -135,7 +135,7 @@ newFac.o: newFac.cpp.o
 
 # target to build an object file
 newFac.cpp.o:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.o
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.o
 .PHONY : newFac.cpp.o
 
 newFac.i: newFac.cpp.i
@@ -143,7 +143,7 @@ newFac.i: newFac.cpp.i
 
 # target to preprocess a source file
 newFac.cpp.i:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.i
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.i
 .PHONY : newFac.cpp.i
 
 newFac.s: newFac.cpp.s
@@ -151,7 +151,7 @@ newFac.s: newFac.cpp.s
 
 # target to generate assembly for a file
 newFac.cpp.s:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.s
+	cd /home/ur0ch/Sem2/lab1/builds && $(MAKE) $(MAKESILENT) -f newFac/CMakeFiles/newFac.dir/build.make newFac/CMakeFiles/newFac.dir/newFac.cpp.s
 .PHONY : newFac.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ur0ch/Chehovich-CS-Labs-2024/lab1/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ur0ch/Sem2/lab1/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
